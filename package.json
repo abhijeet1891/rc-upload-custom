@@ -27,13 +27,13 @@
     "start": "dumi dev",
     "docs:build": "dumi build",
     "docs:deploy": "npm run docs:build && gh-pages -d .doc",
-    "compile": "custom build",
+    "compile": "father build",
     "prepublishOnly": "npm run compile && np --yolo --no-publish",
     "postpublish": "npm run docs:deploy",
     "lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
     "prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
-    "test": "custom test",
-    "coverage": "custom test --coverage",
+    "test": "father test",
+    "coverage": "father test --coverage",
     "now-build": "npm run docs:build"
   },
   "devDependencies": {
