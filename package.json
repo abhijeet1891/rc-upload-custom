@@ -1,6 +1,6 @@
 {
   "name": "rc-upload",
-  "version": "4.3.4",
+  "version": "4.3.6",
   "description": "upload ui component for react",
   "keywords": [
     "react",
@@ -8,13 +8,13 @@
     "react-upload",
     "upload"
   ],
-  "homepage": "http://github.com/react-component/upload",
+  "homepage": "https://github.com/abhijeet1891/rc-upload-custom",
   "repository": {
     "type": "git",
-    "url": "git@github.com:react-component/upload.git"
+    "url": "https://github.com/abhijeet1891/rc-upload-custom"
   },
   "bugs": {
-    "url": "http://github.com/react-component/upload/issues"
+    "url": "https://github.com/abhijeet1891/rc-upload-custom/issues"
   },
   "license": "MIT",
   "files": [
@@ -27,13 +27,13 @@
     "start": "dumi dev",
     "docs:build": "dumi build",
     "docs:deploy": "npm run docs:build && gh-pages -d .doc",
-    "compile": "father build",
+    "compile": "custom build",
     "prepublishOnly": "npm run compile && np --yolo --no-publish",
     "postpublish": "npm run docs:deploy",
     "lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
     "prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
-    "test": "father test",
-    "coverage": "father test --coverage",
+    "test": "custom test",
+    "coverage": "custom test --coverage",
     "now-build": "npm run docs:build"
   },
   "devDependencies": {
