@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "rc-upload",
+  "name": "rc-upload-custom",
   "builds": [
     {
       "src": "package.json",

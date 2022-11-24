@@ -8,7 +8,7 @@ function empty() {}
 class Upload extends Component<UploadProps> {
   static defaultProps = {
     component: 'span',
-    prefixCls: 'rc-upload',
+    prefixCls: 'rc-upload-custom',
     data: {},
     headers: {},
     name: 'file',

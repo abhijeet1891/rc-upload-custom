@@ -1,5 +1,5 @@
 {
-  "name": "rc-upload",
+  "name": "rc-upload-custom",
   "version": "4.3.7",
   "description": "upload ui component for react",
   "keywords": [
@@ -8,13 +8,13 @@
     "react-upload",
     "upload"
   ],
-  "homepage": "https://github.com/abhijeet1891/rc-upload-custom",
+  "homepage": "https://github.com/abhijeet1891/rc-upload-custom-custom",
   "repository": {
     "type": "git",
-    "url": "https://github.com/abhijeet1891/rc-upload-custom"
+    "url": "https://github.com/abhijeet1891/rc-upload-custom-custom"
   },
   "bugs": {
-    "url": "https://github.com/abhijeet1891/rc-upload-custom/issues"
+    "url": "https://github.com/abhijeet1891/rc-upload-custom-custom/issues"
   },
   "license": "MIT",
   "files": [

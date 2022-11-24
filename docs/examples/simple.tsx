@@ -1,10 +1,10 @@
 /* eslint no-console:0 */
 
 import React from 'react';
-import Upload from 'rc-upload';
+import Upload from 'rc-upload-custom';
 
 const style = `
-        .rc-upload-disabled {
+        .rc-upload-custom-disabled {
            opacity:0.5;
         `;
 

@@ -1,7 +1,7 @@
 // more config: https://d.umijs.org/config
 import { defineConfig } from 'dumi';
 
-const name = 'rc-upload';
+const name = 'rc-upload-custom';
 
 export default defineConfig({
   title: name,

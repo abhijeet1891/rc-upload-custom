@@ -1,13 +1,13 @@
-# rc-upload
+# rc-upload-custom
 
 React Upload////
 
 [![NPM version][npm-image]][npm-url] [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue?style=flat-square)](https://github.com/umijs/dumi) [![build status][github-actions-image]][github-actions-url] [![Test coverage][coveralls-image]][coveralls-url] [![Dependencies][david-image]][david-url] [![DevDependencies][david-dev-image]][david-dev-url] [![npm download][download-image]][download-url] [![bundle size][bundlephobia-image]][bundlephobia-url]
 
-[npm-image]: https://img.shields.io/npm/v/rc-upload.svg?style=flat-square
-[npm-url]: http://npmjs.org/package/rc-upload
-[github-actions-image]: https://github.com/abhijeet1891/rc-upload-custom/workflows/CI/badge.svg
-[github-actions-url]: https://github.com/abhijeet1891/rc-upload-custom/actions
+[npm-image]: https://img.shields.io/npm/v/rc-upload-custom.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/rc-upload-custom
+[github-actions-image]: https://github.com/abhijeet1891/rc-upload-custom-custom/workflows/CI/badge.svg
+[github-actions-url]: https://github.com/abhijeet1891/rc-upload-custom-custom/actions
 [circleci-image]: https://img.shields.io/circleci/react-component/upload/master?style=flat-square
 [circleci-url]: https://circleci.com/gh/react-component/upload
 [coveralls-image]: https://img.shields.io/coveralls/react-component/upload.svg?style=flat-square
@@ -16,10 +16,10 @@ React Upload////
 [david-image]: https://david-dm.org/react-component/upload/status.svg?style=flat-square
 [david-dev-url]: https://david-dm.org/react-component/upload?type=dev
 [david-dev-image]: https://david-dm.org/react-component/upload/dev-status.svg?style=flat-square
-[download-image]: https://img.shields.io/npm/dm/rc-upload.svg?style=flat-square
-[download-url]: https://npmjs.org/package/rc-upload
-[bundlephobia-url]: https://bundlephobia.com/result?p=rc-upload
-[bundlephobia-image]: https://badgen.net/bundlephobia/minzip/rc-upload
+[download-image]: https://img.shields.io/npm/dm/rc-upload-custom.svg?style=flat-square
+[download-url]: https://npmjs.org/package/rc-upload-custom
+[bundlephobia-url]: https://bundlephobia.com/result?p=rc-upload-custom
+[bundlephobia-image]: https://badgen.net/bundlephobia/minzip/rc-upload-custom
 
 ## Development
 
@@ -32,7 +32,7 @@ npm start
 
 http://localhost:8000/
 
-online example: https://github.com/abhijeet1891/rc-upload-custom
+online example: https://github.com/abhijeet1891/rc-upload-custom-custom
 
 ## Feature
 
@@ -40,12 +40,12 @@ online example: https://github.com/abhijeet1891/rc-upload-custom
 
 ## install
 
-[![rc-upload](https://nodei.co/npm/rc-upload.png)](https://npmjs.org/package/rc-upload)
+[![rc-upload-custom](https://nodei.co/npm/rc-upload-custom.png)](https://npmjs.org/package/rc-upload-custom)
 
 ## Usage
 
 ```js
-var Upload = require('rc-upload');
+var Upload = require('rc-upload-custom');
 var React = require('react');
 React.render(<Upload />, container);
 ```
@@ -112,4 +112,4 @@ abort(file?: File) => void: abort the uploading file
 
 ## License
 
-rc-upload is released under the MIT license.
+rc-upload-custom is released under the MIT license.

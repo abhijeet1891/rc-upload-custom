@@ -1,7 +1,7 @@
 /* eslint no-console:0 */
 import React from 'react';
 import axios from 'axios';
-import Upload from 'rc-upload';
+import Upload from 'rc-upload-custom';
 
 const uploadProps = {
   action: '/upload.do',
