@@ -650,7 +650,7 @@ describe('uploader', () => {
       2,
       '',
       {
-        directory: false,
+        directory: true,
       },
     );
   });
@@ -701,6 +701,7 @@ describe('uploader', () => {
       input.simulate('change', { target: { files } });
 
       setTimeout(() => {
+        console.log('requests[0]', requests[0]);
         requests[0].respond(200, {}, `["","${files[0].name}"]`);
       }, 100);
     });
